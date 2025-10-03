@@ -1,5 +1,6 @@
-const myinput = document.getElementById("myinput")
-
-function add() {
-    myinput.value = ImageCapture.value + 1
+const my_input = document.getElementById("my_input")
+let current_value = 1
+function calc(x) {
+    current_value += Number(x)
+    my_input.value = current_value
 }

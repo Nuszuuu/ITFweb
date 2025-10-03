@@ -5,6 +5,9 @@ nav {
     align-items: center;
 }
 
+h2 {
+    color: rgb(218, 16, 16);
+}
 body {
     margin: 0;
 }
